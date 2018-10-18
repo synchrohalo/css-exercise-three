@@ -44,7 +44,7 @@ nav {
 .location {
   background-color: #DBD9DB;
   border-bottom: 1px solid #7D7C7E;
-  height: 75px;
+  height: 75px; /* establish container height for consistency */
 }
 .location:hover {
   background-color: #ABAAAB; /* dark grey on hover */
@@ -63,6 +63,6 @@ nav {
 }
 
 .arrow {
-  width: 7%;
+  width: 7%; /* width adds up to 1% less than total container width to prevent overflow */
   padding-top: 30px;
 }
